@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'afacad flux', sans-serif;
+}
+
+.principal-container{
+ display: flex;
+
+ min-height: 100vh;
+ 
+}
+
+.contactos{
+  border: 2px solid rgb(219, 219, 219);
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.principal{
+ 
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ align-items: center;
+ width: 100%;
+ justify-content: center;
+}
+
+.img_princ img{
+  height: 300px;
+  margin: 25px;
+}
+
+.text-h1{
+color: rgb(31, 32, 34);
+margin: 10px;
+font-size: 35px
+
+}
+
+.text-h4{
+  color: rgb(139, 139, 139);
+  margin: 5px;
+}
+
+.img-user img{
+  height: 70px;
+  border-radius: 50%;
+  margin: 15px;
+  
+}
+
+.button-chat{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  margin: 25px;
+  color: white;
+  
+}
+
+button{
+  background-color: #A491D2;
+  padding: 15px;
+  border: none;
+  border-radius: 0.7rem;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+button:hover{
+  background-color: #d29ff3;
+}
+ 
+.usuario{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(219, 219, 219);
+  padding: 15px;
+}
+  .text-user{
+    text-align: start;
+    font-size: 35px;
+    padding: 5px;
+  }
+
+.text-user p{
+  color: rgb(139, 139, 139);
+  font-size: 20px;
+}
+
+.iconos{
+  display: flex;
+  height: 50px;
+  color: rgb(139, 139, 139);
+}
+.fa-regular{
+  margin-right: 20px;
+  height: 50px;
+}
+
+.new-chats{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+ border-top: 2px solid rgb(219, 219, 219);
+  
+
+}
+
+.new-chats img{
+  height: 80px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.juanita{
+  display: flex;
+ padding-left: 60px;
+  align-items: center;
+  border-bottom: 2px solid rgb(219, 219, 219);
+}
+
+.juanita h3{
+  padding-left: 20px;
+}
+  
+  
+  
+  
+
+
+
+  
